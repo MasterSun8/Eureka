@@ -27,7 +27,7 @@ public class Balls : MonoBehaviour
             y++;
         }
 
-        for(int i = 0; i<=capsules.Count; i++){
+        for(int i = 0; i<capsules.Count; i++){
             foreach(System.Char col in str){
                 do{
                     rand = Random.Range(0, capsules.Count);
